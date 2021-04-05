@@ -1,0 +1,104 @@
+body {
+    text-align: center;
+    font-family: arial, sans-serif;
+}
+
+#sign_in {
+    background-color: #1a73e8;
+    color: white;
+    border: 1px solid transparent;
+    height: 35px;
+    width: 100px;
+}
+
+#sign_in:hover {
+    cursor: pointer;
+    background-color: #1a73ff;
+}
+
+.google {
+    margin-top: 150px;
+    font-size: 14px;
+}
+
+#search {
+    width: 40%;
+    height: 40px;
+    border-radius: 20px;
+    border: 1px solid lightgray;
+}
+
+#search:hover {
+    box-shadow: 5px 10px;
+}
+
+nav {
+    margin-left: 0.5%;
+    margin-right: 0.5%;
+    font-size: 13px;
+}
+
+#white_space {
+    margin-left: 1000px;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+}
+
+nav {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.google_buttons_area {
+    margin-top: 20px;
+}
+
+.google_buttons {
+    background-color: #f8f9fa;
+    height: 40px;
+    border: none;
+    width: 140px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+footer {
+    background-color: #f2f2f2;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    font-size: 14px;
+}
+
+#leaf {
+    height: 14px;
+}
+
+p {
+    display: inline;
+}
+
+.bottom_left_category {
+    display: inline;
+}
+
+.bottom_right_category {
+    display: inline;
+}
+
+.carbon_neutral {
+    margin-right: 200px;
+}
+
+@media only screen and (max-height: 450px) {
+    footer {
+      display: none;
+    }
+  }
